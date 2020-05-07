@@ -1,9 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Apr 21 14:57:17 2020
-
-@author: etill
-"""
+###############################################################################
+# Name : Katie Tsui
+# Uni : kft2108
+#
+# File contains app routes for three web pages: home, assignment, and course.
+###############################################################################
 
 #import statements
 from flask import Flask, render_template
@@ -16,10 +16,12 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
+#additional route
 @app.route("/assignment")
 def assignment():
     return render_template("assignment.html")
 
+#additional route
 @app.route("/course")
 def course():
     return render_template("course.html")
