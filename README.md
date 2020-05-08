@@ -8,3 +8,5 @@ index.html: HTML file for the home page. Includes description of self, photo, li
 course.html: HTML file for the Course page. Includes a table of course codes and course names for classes that I am enrolled in this semester. At the bottom, there is a description of my favorite course. 
 
 assignment.html: HTML file for the Assignments page. Includes a table of assignments and descriptions/learning goals for each. At the bottom is an explanation of my favorite assignment. 
+
+data.html: HTML file containing COVID-19 data mined from https://www.worldometers.info/coronavirus/. All credits go to the site. 
