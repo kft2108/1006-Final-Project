@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--specifies title of the page !-->
+        <title>Data-mining Results</title>
+    <head>
+    <h1> COVID-19 Statistics Data Mining </h1>
+    <body>
+    {% for table in tables %}
+            {{ table|safe }}
+    {% endfor %}
+    <br>
+    All data is from <a href="https://www.worldometers.info/coronavirus/">Worldometers</a>.
+    <br>
+    Click <a href="/">here</a> to return to the home page.
+    </body>
+</html>
